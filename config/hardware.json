@@ -1,0 +1,17 @@
+﻿{
+  "gpu": {
+    "name": "NVIDIA GeForce RTX 3050",
+    "vram_mb": 6144,
+    "power_limit_w": 70
+  },
+  "cpu": {
+    "name": "Intel Xeon X5650",
+    "cores": 6,
+    "threads": 6
+  },
+  "ram_mb": 8192,
+  "storage": {
+    "current": "F:\\JARVIS",
+    "future_fast_storage": true
+  }
+}
