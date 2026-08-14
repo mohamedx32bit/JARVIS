@@ -1,0 +1,26 @@
+{
+  "benchmark": "foundation_v0.1",
+  "timestamp_utc": "2026-08-14T21:25:34.478036+00:00",
+  "cpu": {
+    "name": "Intel Xeon X5650",
+    "cores": 6,
+    "threads": 6
+  },
+  "memory_before": {
+    "total_mb": 8175,
+    "available_mb": 3520,
+    "used_mb": 4655,
+    "usage_percent": 56.9
+  },
+  "memory_after": {
+    "total_mb": 8175,
+    "available_mb": 3521,
+    "used_mb": 4654,
+    "usage_percent": 56.9
+  },
+  "cpu_result": {
+    "duration_seconds": 5.0007744999984425,
+    "iterations": 3338,
+    "iterations_per_second": 667.4966047761282
+  }
+}
