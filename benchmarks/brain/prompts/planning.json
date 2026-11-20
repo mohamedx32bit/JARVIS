@@ -1,0 +1,52 @@
+[
+  {
+    "id": "planning_001",
+    "prompt": "Plan the development of a local AI assistant on a low-end computer. The system must remain usable while running a local language model, memory system, monitoring system, and tools.",
+    "skills": ["project_planning", "resource_constraints"]
+  },
+  {
+    "id": "planning_002",
+    "prompt": "Create a phased plan for moving a local AI model from HDD to SSD later without redesigning the application architecture.",
+    "skills": ["migration", "architecture"]
+  },
+  {
+    "id": "planning_003",
+    "prompt": "Plan how to benchmark three local language models fairly on the same computer.",
+    "skills": ["benchmarking", "experimental_design"]
+  },
+  {
+    "id": "planning_004",
+    "prompt": "Design a development sequence for an AI assistant where hardware monitoring must be completed before model inference is enabled.",
+    "skills": ["dependency_planning", "risk_management"]
+  },
+  {
+    "id": "planning_005",
+    "prompt": "Plan how JARVIS could gradually gain memory capabilities without allowing incorrect or unverified information to become permanent memory.",
+    "skills": ["memory_architecture", "reliability"]
+  },
+  {
+    "id": "planning_006",
+    "prompt": "Create a plan for optimizing a local AI application using Python first, then selectively moving bottlenecks to C++.",
+    "skills": ["optimization", "profiling"]
+  },
+  {
+    "id": "planning_007",
+    "prompt": "Plan a recovery strategy for an AI assistant if the local model crashes during generation.",
+    "skills": ["fault_tolerance", "recovery"]
+  },
+  {
+    "id": "planning_008",
+    "prompt": "Design a plan for adding voice input and output to a local assistant while keeping the core brain independent from the voice system.",
+    "skills": ["modular_design", "integration"]
+  },
+  {
+    "id": "planning_009",
+    "prompt": "Plan how to test a new version of JARVIS without risking corruption of the existing working version.",
+    "skills": ["versioning", "testing"]
+  },
+  {
+    "id": "planning_010",
+    "prompt": "Create a long-term architecture plan for a local-first AI assistant that can optionally use online services only when an internet connection is available.",
+    "skills": ["local_first_architecture", "fallback_design"]
+  }
+]

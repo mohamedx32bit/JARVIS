@@ -24,3 +24,31 @@ sandbox/*
 
 .vscode/
 .idea/
+
+# Local CUDA Toolkit - do not upload
+/compute-sanitizer/
+/bin/
+/include/
+/lib/
+/nvml/
+/nvvm/
+CUDA_Toolkit_Release_Notes.txt
+EULA.txt
+
+/core/runtime/llama.cpp/
+
+# CUDA Toolkit files - exclude from GitHub
+/DOCS
+/LICENSE
+/README
+/version.json
+/extras/
+/compute-sanitizer/
+/bin/
+/include/
+/lib/
+/nvml/
+/nvvm/
+/CUDA_Toolkit_Release_Notes.txt
+/EULA.txt
+

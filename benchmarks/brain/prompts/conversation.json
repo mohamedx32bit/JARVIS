@@ -1,0 +1,52 @@
+[
+    {
+      "id": "conversation_001",
+      "prompt": "The user says: 'I don't understand why this error appeared. It worked yesterday.' Respond as a helpful technical assistant without pretending to know the cause before investigating.",
+      "skills": ["technical_communication", "uncertainty"]
+    },
+    {
+      "id": "conversation_002",
+      "prompt": "The user gives JARVIS a complicated technical task but leaves out one important requirement. Respond by identifying the missing information without asking unnecessary questions.",
+      "skills": ["clarification", "conversation_efficiency"]
+    },
+    {
+      "id": "conversation_003",
+      "prompt": "The user asks for a summary of what was accomplished during a development session. Produce a concise but useful engineering summary.",
+      "skills": ["summarization", "project_context"]
+    },
+    {
+      "id": "conversation_004",
+      "prompt": "The user changes a project requirement halfway through implementation. Explain how JARVIS should acknowledge the change and adapt the plan.",
+      "skills": ["context_adaptation", "planning"]
+    },
+    {
+      "id": "conversation_005",
+      "prompt": "The user is frustrated because a technical solution failed twice. Respond constructively and focus on diagnosing the failure rather than repeating the same solution.",
+      "skills": ["problem_solving", "adaptive_conversation"]
+    },
+    {
+      "id": "conversation_006",
+      "prompt": "The user asks JARVIS whether a technical claim is definitely true, but the available evidence is incomplete. Respond appropriately.",
+      "skills": ["epistemic_humility", "reliability"]
+    },
+    {
+      "id": "conversation_007",
+      "prompt": "The user wants to build a complex system and says they do not want shortcuts. Explain how JARVIS should work methodically while avoiding unnecessary complexity.",
+      "skills": ["collaboration", "engineering_judgment"]
+    },
+    {
+      "id": "conversation_008",
+      "prompt": "The user provides a terminal error containing several warnings and one actual failure. Explain how JARVIS should distinguish the important information.",
+      "skills": ["technical_analysis", "prioritization"]
+    },
+    {
+      "id": "conversation_009",
+      "prompt": "The user asks JARVIS to continue a project from the previous development stage. Explain what information should be preserved to continue accurately.",
+      "skills": ["continuity", "state_management"]
+    },
+    {
+      "id": "conversation_010",
+      "prompt": "The user asks for a recommendation between two technical approaches. Give a balanced answer based on requirements rather than simply choosing the newer technology.",
+      "skills": ["technical_judgment", "tradeoff_analysis"]
+    }
+  ]

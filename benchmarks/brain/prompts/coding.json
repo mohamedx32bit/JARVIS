@@ -1,0 +1,53 @@
+
+[
+    {
+      "id": "coding_001",
+      "prompt": "Design a Python function that returns CPU usage, RAM usage, available RAM, GPU usage, and free VRAM as structured data. Explain important error-handling cases.",
+      "skills": ["python", "system_monitoring"]
+    },
+    {
+      "id": "coding_002",
+      "prompt": "Write a Python function that safely loads a JSON configuration file while handling UTF-8 BOM and invalid JSON errors.",
+      "skills": ["python", "error_handling"]
+    },
+    {
+      "id": "coding_003",
+      "prompt": "Design a resource manager that refuses to start a task when available RAM or VRAM falls below configured safety thresholds.",
+      "skills": ["architecture", "resource_management"]
+    },
+    {
+      "id": "coding_004",
+      "prompt": "Explain how you would design a Python interface allowing JARVIS to switch between multiple local language-model backends without changing the rest of the application.",
+      "skills": ["software_architecture", "abstraction"]
+    },
+    {
+      "id": "coding_005",
+      "prompt": "A Python program works when executed from the project directory but fails with ModuleNotFoundError when a file is executed directly. Explain the cause and give a robust project-level solution.",
+      "skills": ["python", "debugging"]
+    },
+    {
+      "id": "coding_006",
+      "prompt": "Design a benchmark result format that stores model name, generation speed, RAM usage, VRAM usage, capability scores, and timestamp.",
+      "skills": ["data_modeling", "benchmarking"]
+    },
+    {
+      "id": "coding_007",
+      "prompt": "Explain how you would prevent a long-running AI process from leaking GPU memory between requests.",
+      "skills": ["gpu", "resource_management"]
+    },
+    {
+      "id": "coding_008",
+      "prompt": "Design a logging system for JARVIS that separates normal events, warnings, errors, and performance metrics.",
+      "skills": ["logging", "architecture"]
+    },
+    {
+      "id": "coding_009",
+      "prompt": "Explain how C++ could be integrated into a Python AI application to accelerate a performance-critical component while keeping the Python API simple.",
+      "skills": ["python", "cpp", "optimization"]
+    },
+    {
+      "id": "coding_010",
+      "prompt": "A configuration file contains a Windows path such as F:\\JARVIS\\models. Explain how this can accidentally create an invalid JSON escape and how to represent the path safely.",
+      "skills": ["json", "debugging"]
+    }
+  ]

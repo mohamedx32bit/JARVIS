@@ -1,0 +1,52 @@
+[
+  {
+    "id": "reasoning_001",
+    "prompt": "A computer has 8 GB RAM. Windows and background applications currently use 5 GB. JARVIS needs 4 GB of additional RAM for a task. Should it start immediately? Explain your reasoning and what it should do instead.",
+    "skills": ["resource_reasoning", "constraint_handling"]
+  },
+  {
+    "id": "reasoning_002",
+    "prompt": "A task can run either in 30 seconds using 5 GB RAM or in 90 seconds using 2 GB RAM. The system currently has only 2.5 GB available RAM. Which option should JARVIS choose and why?",
+    "skills": ["tradeoff_analysis", "resource_reasoning"]
+  },
+  {
+    "id": "reasoning_003",
+    "prompt": "JARVIS receives two conflicting pieces of information about the same system resource. One source says 70% RAM usage and another says 92%. How should it reason about the conflict before taking action?",
+    "skills": ["uncertainty", "conflict_resolution"]
+  },
+  {
+    "id": "reasoning_004",
+    "prompt": "A program becomes slower after moving its model from SSD storage to HDD, while CPU and GPU utilization remain almost unchanged. What are the most likely bottlenecks? Explain without assuming a single cause.",
+    "skills": ["systems_reasoning", "hypothesis_generation"]
+  },
+  {
+    "id": "reasoning_005",
+    "prompt": "JARVIS has enough VRAM to load a model, but only 1 GB of system RAM is available. Explain why successful VRAM allocation does not necessarily mean the model can run reliably.",
+    "skills": ["memory_reasoning", "systems_reasoning"]
+  },
+  {
+    "id": "reasoning_006",
+    "prompt": "A model generates excellent answers but frequently ignores tool results. Another model is slightly weaker at reasoning but consistently follows tool outputs. Which property is more important for an autonomous assistant, and under what circumstances?",
+    "skills": ["agent_reasoning", "tradeoff_analysis"]
+  },
+  {
+    "id": "reasoning_007",
+    "prompt": "A benchmark shows that Model A is 30% faster than Model B, but Model B scores 15% higher on reasoning and uses 20% more memory. Explain how you would decide which model is better for a persistent desktop assistant.",
+    "skills": ["multi_objective_reasoning", "tradeoff_analysis"]
+  },
+  {
+    "id": "reasoning_008",
+    "prompt": "JARVIS wants to start a heavy computation, but the GPU temperature is normal while available RAM is critically low. Which resource should determine the decision and why?",
+    "skills": ["resource_prioritization", "decision_making"]
+  },
+  {
+    "id": "reasoning_009",
+    "prompt": "A model performs well on short questions but becomes inconsistent when given long multi-step tasks. What hypotheses would you investigate before concluding that the model itself is weak?",
+    "skills": ["diagnosis", "hypothesis_generation"]
+  },
+  {
+    "id": "reasoning_010",
+    "prompt": "JARVIS must choose between an exact but slow operation and a fast approximation. Describe a decision policy that considers user intent, available resources, accuracy requirements, and time constraints.",
+    "skills": ["policy_design", "multi_objective_reasoning"]
+  }
+]

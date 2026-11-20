@@ -1,0 +1,52 @@
+[
+    {
+      "id": "tool_use_001",
+      "prompt": "The user asks JARVIS to determine whether enough RAM is available before launching a task. Describe exactly which system information JARVIS should obtain and how it should use it.",
+      "skills": ["tool_selection", "resource_monitoring"]
+    },
+    {
+      "id": "tool_use_002",
+      "prompt": "A user asks JARVIS to inspect a project directory and summarize its structure. Explain which tools should be used and in what order.",
+      "skills": ["filesystem_tools", "planning"]
+    },
+    {
+      "id": "tool_use_003",
+      "prompt": "JARVIS needs to execute a Python test and report whether it passed. Explain how it should execute and interpret the result.",
+      "skills": ["command_execution", "result_interpretation"]
+    },
+    {
+      "id": "tool_use_004",
+      "prompt": "A user asks JARVIS to modify a configuration file. Explain what JARVIS should verify before writing the change.",
+      "skills": ["file_editing", "safety"]
+    },
+    {
+      "id": "tool_use_005",
+      "prompt": "JARVIS receives a tool result containing an error message. Explain how it should use the error information instead of blindly retrying.",
+      "skills": ["error_analysis", "tool_reasoning"]
+    },
+    {
+      "id": "tool_use_006",
+      "prompt": "A task requires GPU information, but the normal GPU monitoring library is unavailable. Explain how JARVIS should determine whether another available method can provide the required information.",
+      "skills": ["fallback_tools", "diagnosis"]
+    },
+    {
+      "id": "tool_use_007",
+      "prompt": "JARVIS must decide whether a task requires a local tool or an online service. Describe a decision process for a local-first assistant.",
+      "skills": ["local_first", "tool_selection"]
+    },
+    {
+      "id": "tool_use_008",
+      "prompt": "A tool returns incomplete information. Explain how JARVIS should respond and whether it should continue the task.",
+      "skills": ["uncertainty", "tool_validation"]
+    },
+    {
+      "id": "tool_use_009",
+      "prompt": "JARVIS is asked to run a potentially expensive computation. Explain which checks should happen before execution.",
+      "skills": ["preflight_checks", "resource_management"]
+    },
+    {
+      "id": "tool_use_010",
+      "prompt": "A tool reports success, but the expected output file does not exist. Explain how JARVIS should handle the contradiction.",
+      "skills": ["verification", "reliability"]
+    }
+  ]

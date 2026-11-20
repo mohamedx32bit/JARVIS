@@ -1,0 +1,52 @@
+[
+    {
+      "id": "reliability_001",
+      "prompt": "You are not certain which version of a software package is installed. Explain how you would determine the version instead of guessing.",
+      "skills": ["verification", "uncertainty"]
+    },
+    {
+      "id": "reliability_002",
+      "prompt": "A benchmark result looks unusually good compared with previous runs. Explain what you would check before accepting it.",
+      "skills": ["benchmark_validation", "anomaly_detection"]
+    },
+    {
+      "id": "reliability_003",
+      "prompt": "A user reports that a model uses 8 GB of VRAM, but the monitoring tool reports only 5 GB. Explain how you would investigate the discrepancy.",
+      "skills": ["measurement_validation", "diagnosis"]
+    },
+    {
+      "id": "reliability_004",
+      "prompt": "A configuration contains a path that does not exist. Explain whether JARVIS should automatically create it or first determine the intended behavior.",
+      "skills": ["safe_automation", "uncertainty"]
+    },
+    {
+      "id": "reliability_005",
+      "prompt": "A model produces a confident answer to a question for which it has insufficient information. Explain what a reliable assistant should do.",
+      "skills": ["hallucination_control", "epistemic_humility"]
+    },
+    {
+      "id": "reliability_006",
+      "prompt": "A tool reports that an operation succeeded, but no observable change occurred. Explain how JARVIS should determine what actually happened.",
+      "skills": ["verification", "debugging"]
+    },
+    {
+      "id": "reliability_007",
+      "prompt": "Two benchmark runs produce significantly different generation speeds on the same model. List possible causes and explain how to isolate them.",
+      "skills": ["reproducibility", "performance_analysis"]
+    },
+    {
+      "id": "reliability_008",
+      "prompt": "JARVIS remembers that a configuration value was changed several days ago, but it cannot verify the memory. Explain how it should present that information.",
+      "skills": ["memory_reliability", "uncertainty"]
+    },
+    {
+      "id": "reliability_009",
+      "prompt": "A model claims that it executed a command successfully, but JARVIS has no tool execution result. Explain why the claim should not be treated as proof.",
+      "skills": ["agent_reliability", "tool_verification"]
+    },
+    {
+      "id": "reliability_010",
+      "prompt": "A system is close to its RAM limit and a task has uncertain memory requirements. Explain the safest way for JARVIS to decide whether to proceed.",
+      "skills": ["risk_management", "resource_reasoning"]
+    }
+  ]
