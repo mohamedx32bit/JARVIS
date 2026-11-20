@@ -52,3 +52,21 @@ EULA.txt
 /CUDA_Toolkit_Release_Notes.txt
 /EULA.txt
 
+bin/tileiras.exe
+bin/x64/cublas64_13.dll
+bin/x64/cublasLt64_13.dll
+bin/x64/cufft64_12.dll
+bin/x64/curand64_10.dll
+bin/x64/cusolver64_12.dll
+bin/x64/cusolverMg64_12.dll
+bin/x64/cusparse64_12.dll
+bin/x64/nppif64_13.dll
+bin/x64/nvJitLink_130_0.dll
+bin/x64/nvrtc64_130_0.dll
+core/runtime/llama.cpp/build-cuda/tools/server/Release/server-context.lib
+lib/x64/nvJitLink_static.lib
+lib/x64/nvptxcompiler_static.lib
+lib/x64/nvrtc_static.lib
+models/qwen3-4b/Qwen3-4B-Q4_K_M.gguf
+nvvm/bin/cicc.exe
+nvvm/bin/x64/nvvm64_40_0.dll
